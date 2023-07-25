@@ -1,0 +1,60 @@
+.bg-none {
+  background-color: #fff !important;
+}
+.btn-position {
+  position: absolute;
+  z-index: 9999;
+  cursor: pointer;
+  top: -20%;
+}
+.btn-left {
+    left: -6%;
+}
+.btn-right {
+    right: -4%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .btn-right {
+    right: -6%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .w-lg-75 {
+    width: 75% !important;
+  }
+  .btn-left {
+    left: -9%;
+    }
+    .btn-right {
+        right: -7%;
+    }
+}
+@media only screen and (max-width: 768px) {
+  .w-sm-100 {
+    width: 100% !important;
+  }
+  .fs-md-title {
+    font-size: 25px !important;
+  }
+  .btn-left {
+    left: -9%;
+}
+}
+@media only screen and (max-width: 576px) {
+    .btn-left {
+        left: -10%;
+    }
+  .fs-em-title {
+    font-size: 20px !important;
+  }
+  .fs-em-para {
+    font-size: 18 !important;
+  }
+  .w-em-100 {
+    width: 100% !important;
+  }
+  .bg-home {
+    background-position: right top;
+  }
+}

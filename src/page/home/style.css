@@ -1,0 +1,76 @@
+.container-home {
+  position: relative;
+}
+.message-box {
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+  right: 0;
+  cursor: pointer;
+  border : 1px solid #ccc;
+  background-color: #fff;
+}
+.bg-home {
+  background-image: url(../../components/img/ellipse.png);
+  background-position: 100% 100%;
+  background-size:contain; 
+  background-repeat: no-repeat;
+  height: 100%;
+  padding: 120px 0;
+}
+.font-custom {
+  font-family: Source Serif Pro;
+}
+.container-swiper {
+  position: relative;
+}
+
+.review {
+  padding: 20px;
+  background: #fdfff5;
+  box-shadow: 0px 35px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.btn-position-home {
+  position: absolute;
+  z-index: 9999;
+  cursor: pointer;
+  top: 50%;
+}
+
+@media only screen and (max-width : 1200px) {
+  .bg-home {
+    padding: 100px 0;
+  }
+}
+@media only screen and (max-width : 992px) {
+  .w-lg-75 {
+      width: 75% !important;   
+  }
+  .bg-home {
+    padding: 20px 0;
+  }
+}
+@media only screen  and (max-width : 768px) {
+  .w-sm-100 {
+      width: 100% !important;
+  }
+  .fs-md-title {
+    font-size: 25px !important;
+  }
+
+}
+@media only screen and (max-width : 576px) {
+  .fs-em-title {
+    font-size: 20px !important;
+  }
+  .fs-em-para {
+    font-size: 18 !important;
+  }
+  .w-em-100 {
+      width: 100% !important;
+  }
+  .bg-home {
+    background-position: right top;
+  }
+}
